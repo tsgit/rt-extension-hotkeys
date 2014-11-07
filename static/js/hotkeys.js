@@ -41,7 +41,7 @@ hotkeys = {
         }
 
         if (number){
-            window.location = '<% RT->Config->Get('WebPath') %>/Ticket/Display.html?id=' + number;
+            window.location = "<% RT->Config->Get('WebPath') %>/Ticket/Display.html?id=" + number;
         }
     },
     bind: function( conf, global ) {
@@ -69,4 +69,3 @@ hotkeys = {
         }
     }
 };
-

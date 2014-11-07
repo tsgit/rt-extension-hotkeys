@@ -1,3 +1,4 @@
+<script type="text/javascript" src="<%RT->Config->Get('WebPath')%>/static/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
 jQuery( function() {
     hotkeys.help = function () {
