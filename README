@@ -108,7 +108,7 @@ INSTALLATION
                         'e' => {
                             body =>
         q!hotkeys.open('#page-menu a[href*="/Articles/Article/ExtractIntoClass.html"]')!,
-                            doc => 'forward',
+                            doc => 'extract content for Article creation',
                         },
                         'f' => {
                             body =>
